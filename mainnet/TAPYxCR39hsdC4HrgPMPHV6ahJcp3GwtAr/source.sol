@@ -5,6 +5,8 @@ pragma solidity ^0.4.25;
  */
 contract SafeMath {
   function show() public pure returns (uint8) {
+      uint i;
+      i++;
       return 1;
   }
 }
