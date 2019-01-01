@@ -131,11 +131,6 @@ contract TronkarpFarm{
         marketEggs = eggs;
     }
 
-    // function boostMarket(uint256 eggs) public payable {
-    //     require(msg.sender==feeAddress, "Can only be boosted by admin");
-    //     marketEggs = sub(marketEggs, eggs)
-    // }
-
     function getFreeTronKarps() public{
         require(initialized, "Not initialized");
         require(TronKarp[msg.sender]==0, "User doesnt have 0 tronkarps");
