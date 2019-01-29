@@ -146,6 +146,7 @@ contract TronVillage {
 
 }
 
+
 contract TronVillageViewer {
 
     uint constant TYPES_FACTORIES = 6;
