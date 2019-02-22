@@ -8,9 +8,9 @@ pragma solidity ^0.4.25;
  *
  */
 contract TronInvest {
-    address support1; // TFEFf9vmGzm6xLigEgzxXWRc2ZyE4S4bb9 (my)
-    address support2; // TSNag8Ke3G9W3NoEfjmtcSd9Y7ipdaLEdS
-    address support3; // TRctKEsYbAraXrtSejbFyXAmT81JikhCCK
+    address support1;
+    address support2;
+    address support3;
     uint minimumAmount = 100000000;
     uint restartAmount = 50000000;
     uint supportFee_1 = 4;
