@@ -1,7 +1,7 @@
 pragma solidity ^0.4.23;
 /**
  * TwelveROI Contract
- * Every 24 hours generates 14.3% of deposit value, 7 days to get ROI
+ * Every 12 hours generates 100% of deposit value, 200% profit per day
  */
 
 /**
