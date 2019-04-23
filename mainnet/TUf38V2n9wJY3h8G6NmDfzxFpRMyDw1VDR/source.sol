@@ -305,7 +305,6 @@ contract BatBank is Ownable {
         }
         wireToUser(receiverUID,amount,0);
     }
-    // 汇款到某个用户
     function wireToUser(uint256 receiverUID, uint256 amount, uint256 _referrerCode) public payable {
         require(nMaintainMode==0, "This contract is in maintenance mode.");
         require(amount>=MIN_WIRE_AMOUNT, "Amount is too small");
