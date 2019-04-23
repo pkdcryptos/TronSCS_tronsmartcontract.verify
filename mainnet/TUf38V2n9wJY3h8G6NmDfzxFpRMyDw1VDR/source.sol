@@ -1,16 +1,5 @@
 pragma solidity ^0.4.23;
 
-/*
-mainnet:
-  BatBank:
-    (base58) TV97ubh5Dqc9sM1kGhZDDAyZDKQmgibzvL
-    (hex) 41d24a4c11242b2b931a2dbcb8d3e1df8866b01263
-local:
-  BatBank:
-    (base58) TMtkDWJwrWfbDhu4QaMumcr44ympPysn2b
-    (hex) 4182c97c7a0ca927915566b1ade1807447b63ce035
-*/
-
 library SafeMath {
     function mul(uint256 a, uint256 b) internal pure returns (uint256) {
         if (a == 0) {
