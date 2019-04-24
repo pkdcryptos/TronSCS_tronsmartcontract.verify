@@ -1,4 +1,3 @@
-
 // File: openzeppelin-solidity/contracts/ownership/rbac/Roles.sol
 
 pragma solidity ^0.4.23;
